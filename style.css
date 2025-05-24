@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.login-bg {
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-box {
+    background: #111;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.login-box input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
+.login-box button {
+    padding: 10px 20px;
+    background: #800080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.sidebar {
+    background: #111;
+    color: white;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+}
+.sidebar h2 {
+    color: #a020f0;
+}
+.sidebar nav a {
+    display: block;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.sidebar nav a:hover {
+    text-decoration: underline;
+}
+.painel {
+    margin-left: 220px;
+    padding: 20px;
+    color: white;
+    background: #222;
+    min-height: 100vh;
+}
+.ia-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+}
+.planos {
+    display: flex;
+    gap: 20px;
+}
+.plano {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+.destaque {
+    border: 2px solid #800080;
+}
